@@ -1,0 +1,7 @@
+require("nvim-surround").setup()
+require("nvim-autopairs").setup()
+require("lazydev").setup()
+require("auto-session").setup()
+require("neoscroll").setup()
+require("colorizer").setup()
+require("nvim-ts-autotag").setup()

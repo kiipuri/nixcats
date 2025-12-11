@@ -1,0 +1,6 @@
+require("opts")
+require("ftopts")
+require("lsp")
+require("format")
+require("keys")
+require("completion")
