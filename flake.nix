@@ -122,7 +122,7 @@
               stylua
 
               nixd
-              nixfmt-rfc-style
+              nixfmt
 
               rust-analyzer
 
