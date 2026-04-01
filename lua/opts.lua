@@ -43,7 +43,6 @@ vim.g.netrw_liststyle = 0
 vim.g.netrw_banner = 0
 
 vim.o.clipboard = "unnamedplus"
-vim.g.clipboard = "osc52"
 
 -- [[ disable auto comment on enter ]]
 -- see :help formatoptions
