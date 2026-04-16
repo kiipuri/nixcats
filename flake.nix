@@ -113,7 +113,6 @@
           lspsAndRuntimeDeps = {
             general = with pkgs; [
               prettierd
-              nodePackages.prettier
               svelte-language-server
               typescript-language-server
               efm-langserver
@@ -313,7 +312,7 @@
             name = defaultPackageName;
             packages = [ defaultPackage ];
             inputsFrom = [ ];
-            shellHook = '''';
+            shellHook = "";
           };
         };
 
