@@ -10,6 +10,7 @@ vim.keymap.set("n", "<leader>lc", vim.lsp.buf.code_action, { desc = "Code action
 vim.keymap.set("n", "<leader>h", "<cmd>noh<cr><cmd>NoiceDismiss<cr>", { desc = "Dismiss messages and highlights" })
 vim.keymap.set("n", "<leader>ld", vim.lsp.buf.definition, { desc = "Go to definition" })
 vim.keymap.set("n", "<leader>ls", vim.diagnostic.open_float, { desc = "Open floating diagnostic message" })
+vim.keymap.set("n", "<leader>lt", vim.lsp.buf.type_definition, { desc = "Go to type definition" })
 vim.keymap.set("n", "<leader>li", function()
     require("telescope.builtin").lsp_implementations()
 end, { desc = "Go to implementation" })
