@@ -4,6 +4,7 @@ conform.setup({
         lua = { "stylua" },
         nix = { "nixfmt" },
         typescriptreact = { "prettierd", stop_after_first = true },
+        python = { "ruff_format" },
     },
     formatters = {
         stylua = {

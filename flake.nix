@@ -131,6 +131,9 @@
               kdePackages.qtdeclarative
 
               clang-tools
+
+              pyright
+              ruff
             ];
           };
 
